@@ -6,11 +6,11 @@ use Behat\Mink\Driver\BrowserKitDriver;
 use Behat\Mink\Session;
 use Behat\Mink\Tests\Driver\Util\FixturesKernel;
 use Symfony\Component\HttpKernel\Client;
-
+use PHPUnit\Framework\TestCase;
 /**
  * @group functional
  */
-class BaseUrlTest extends \PHPUnit_Framework_TestCase
+class BaseUrlTest extends TestCase
 {
     public function testBaseUrl()
     {
