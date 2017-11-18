@@ -16,6 +16,8 @@ matrix:
     # Test against dev versions of dependencies
     - php: 5.6
       env: DEPENDENCIES='dev'
+    - php: 7.1
+      env: SYMFONY_VERSION='4.0.*'
 
 cache:
   directories:
