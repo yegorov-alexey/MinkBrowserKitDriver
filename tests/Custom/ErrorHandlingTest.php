@@ -5,8 +5,9 @@ namespace Behat\Mink\Tests\Driver\Custom;
 use Behat\Mink\Driver\BrowserKitDriver;
 use Symfony\Component\BrowserKit\Client;
 use Symfony\Component\BrowserKit\Response;
+use PHPUnit\Framework\TestCase;
 
-class ErrorHandlingTest extends \PHPUnit_Framework_TestCase
+class ErrorHandlingTest extends TestCase
 {
     /**
      * @var TestClient
