@@ -5,7 +5,8 @@
     "homepage":     "http://mink.behat.org/",
     "type":         "mink-driver",
     "license":      "MIT",
-
+    "minimum-stability": "dev",
+    
     "authors": [
         {
             "name":      "Konstantin Kudryashov",
